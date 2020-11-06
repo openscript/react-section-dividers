@@ -1,4 +1,4 @@
-name: check-size
+name: Check size
 
 on: pull_request
 
