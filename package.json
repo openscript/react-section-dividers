@@ -21,15 +21,14 @@
   },
   "scripts": {
     "start": "tsdx watch",
-    "start:storybook": "start-storybook -p 6006",
+    "start:storybook": "start-storybook -s ./docs -p 6006",
     "build": "tsdx build",
-    "build:storybook": "build-storybook --quiet",
+    "build:storybook": "build-storybook -s ./docs --quiet",
     "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
-    "analyze": "size-limit --why",
-    "storybook": "start-storybook -p 6006"
+    "analyze": "size-limit --why"
   },
   "peerDependencies": {
     "react": ">=16"

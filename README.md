@@ -14,4 +14,7 @@ Add the package with the package manager of choice to your project:
 
 ## Resources
 
-- [**tsdx**](https://github.com/formium/tsdx): Zero-config CLI for TypeScript package development
+- Tools
+  - [**tsdx**](https://github.com/formium/tsdx): Zero-config CLI for TypeScript package development
+- Media
+  - Demonstration photo by [Johannes Hofmann](https://unsplash.com/@quicksand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

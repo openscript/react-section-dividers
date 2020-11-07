@@ -6,7 +6,7 @@ type ColorProps = {
   color: string;
 };
 
-const DividerWrapper = styled.div`
+const AslantWrapper = styled.div`
   height: 30px;
   background-color: ${(props: ColorProps) => props.color};
 `;
@@ -19,12 +19,13 @@ const AslantElement = styled.div`
 
 type AslantDividerProps = UpperLowerColors & {
   angle?: number;
+  height?: string;
 };
 
-export function AslantDivider(props: AslantDividerProps) {
+export function AslantDivider({ upperColor, lowerColor, height = '30px' }: AslantDividerProps) {
   return (
-    <DividerWrapper color={props.upperColor}>
-      <AslantElement color={props.lowerColor} />
-    </DividerWrapper>
+    <AslantWrapper color={upperColor}>
+      <AslantElement color={lowerColor} />
+    </AslantWrapper>
   );
 }
