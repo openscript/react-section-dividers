@@ -1,1 +1,1 @@
-export { AslantDivider } from './AslantDivider';
+export { AslantDividedSection } from './AslantDividedSection';
