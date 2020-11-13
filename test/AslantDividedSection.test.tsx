@@ -1,11 +1,11 @@
 import React from 'react';
 import * as ReactDOM from 'react-dom';
-import { Default as Thing } from '../stories/Thing.stories';
+import { AslantDividedSection } from '../src/AslantDividedSection';
 
-describe('Thing', () => {
+describe('Aslant Divided Section', () => {
   it('renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<Thing />, div);
+    ReactDOM.render(<AslantDividedSection divider={{ top: { height: '100px' } }} />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 });
