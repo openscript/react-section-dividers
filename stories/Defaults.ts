@@ -2,7 +2,9 @@ import { css } from '@emotion/core';
 
 export const defaultColors = {
   primary: '#b4c4e1',
-  secondary: '#6e94db'
+  secondary: '#6e94db',
+  dark: '#4e699c',
+  darker: '#2e3e5c'
 };
 
 export const defaultSizes = {
@@ -11,7 +13,6 @@ export const defaultSizes = {
 
 export const defaultStyles = {
   demonstrationSection: css`
-    height: ${defaultSizes.height};
     background-color: ${defaultColors.secondary};
   `
 };

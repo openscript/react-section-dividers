@@ -25,7 +25,8 @@ export function BasicUsage() {
       }}
       css={defaultStyles.demonstrationSection}
     >
-      Some content
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi delectus vitae natus maiores. Assumenda vitae, cum, qui quos ea
+      distinctio obcaecati reiciendis quia accusantium alias, voluptas autem pariatur cumque! Itaque!
     </AslantDividedSection>
   );
 
@@ -51,7 +52,8 @@ export function BothSides() {
       }}
       css={defaultStyles.demonstrationSection}
     >
-      Some content
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, earum quidem similique dolorem voluptate quaerat minus!
+      Quibusdam error magni odit doloribus, explicabo, ab assumenda quae debitis ad quos similique sapiente.
     </AslantDividedSection>
   );
   const lowerSection = <OtherSection />;
@@ -80,7 +82,8 @@ export function FlipOneSide() {
       }}
       css={defaultStyles.demonstrationSection}
     >
-      Some content
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, quia? Dolores accusamus commodi, doloremque quibusdam tenetur
+      architecto? Quam dicta est, quos mollitia dolorem placeat vel minus doloremque, cum, dolores fugiat.
     </AslantDividedSection>
   );
   const lowerSection = <OtherSection />;
@@ -112,7 +115,8 @@ export function WithBackgroundImage() {
         ${defaultStyles.demonstrationSection}
       `}
     >
-      Some content
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, deleniti fuga. Architecto amet eligendi in eaque, quam minima saepe
+      qui eum, odio aliquam exercitationem tempora, ullam excepturi voluptates iusto aspernatur?
     </AslantDividedSection>
   );
   const lowerSection = <OtherSection />;
