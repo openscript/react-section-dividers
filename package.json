@@ -9,6 +9,7 @@
   ],
   "version": "0.1.0",
   "license": "MIT",
+  "homepage": "https://openscript.github.io/react-section-dividers",
   "repository": "https://github.com/openscript/react-section-dividers",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

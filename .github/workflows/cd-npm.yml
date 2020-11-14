@@ -1,0 +1,24 @@
+name: Continuous deployment (NPM)
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  build-and-deploy:
+    name: Build and deploy NPM package
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Use nodejs
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+          registry-url: 'https://registry.npmjs.org'
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Publish package on NPM
+        run: yarn publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
