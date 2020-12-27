@@ -1,9 +1,6 @@
 import React, { Fragment } from 'react';
 import { BeamDividedSection } from '../src/BeamDividedSection';
 import { OtherSection } from './OtherSection';
-/** @jsx jsx */
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { css, jsx } from '@emotion/core';
 import { defaultStyles, defaultColors } from './Defaults';
 
 export default {

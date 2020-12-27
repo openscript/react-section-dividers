@@ -1,9 +1,7 @@
 import React, { Fragment } from 'react';
 import { AslantDividedSection } from '../src/AslantDividedSection';
 import { OtherSection } from './OtherSection';
-/** @jsx jsx */
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { css, jsx } from '@emotion/core';
+import { css } from '@emotion/core';
 import { defaultStyles } from './Defaults';
 
 export default {

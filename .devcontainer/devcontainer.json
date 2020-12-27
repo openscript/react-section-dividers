@@ -20,7 +20,8 @@
     "vscode-icons-team.vscode-icons",
     "mgmcdermott.vscode-language-babel",
     "dbaeumer.vscode-eslint",
-    "jpoissonnier.vscode-styled-components"
+    "jpoissonnier.vscode-styled-components",
+    "silvenon.mdx"
   ],
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
