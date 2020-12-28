@@ -1,6 +1,5 @@
 import styled from '@emotion/styled';
 import React, { PropsWithChildren } from 'react';
-import { DividerPosition } from './Divider';
 
 type AslantSectionProps = {
   topHeight: string;
@@ -23,7 +22,7 @@ type AslantDividerSettings = {
 
 type AslantDividedSectionProps = PropsWithChildren<{
   className?: string;
-  divider: { [position in DividerPosition]?: AslantDividerSettings };
+  divider: { top: AslantDividerSettings; bottom: AslantDividerSettings };
 }>;
 
 export function AslantDividedSection({ children, className, divider }: AslantDividedSectionProps) {
