@@ -1,1 +1,1 @@
-export { SimpleDivider } from "./dividers/SimpleDivider";
+export { SimpleDivider } from './dividers/SimpleDivider';
