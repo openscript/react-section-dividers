@@ -2,8 +2,6 @@
 
 A collection of React section dividers.
 
-This components are not tested with Internet Explorer. Please use a modern browser.
-
 ## Getting started
 
 Add the package with the package manager of choice to your project:
@@ -14,7 +12,10 @@ Add the package with the package manager of choice to your project:
 
 ## Resources
 
+- Articles
+  - [\*\*Use Vite in Library Mode](https://vitejs.dev/guide/build.html#library-mode)
 - Tools
-  - [**tsdx**](https://github.com/formium/tsdx): Zero-config CLI for TypeScript package development
+  - [**Vite**](https://vitejs.dev/): Next Generation Frontend Tooling
+  - [**Storybook**](https://storybook.js.org/): Storybook is an open source tool for building UI components and pages in isolation. It streamlines UI development, testing, and documentation.
 - Media
   - Demonstration photo by [Johannes Hofmann](https://unsplash.com/@quicksand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
