@@ -2,13 +2,7 @@
   "name": "react-section-dividers",
   "build": {
     "dockerfile": "Dockerfile",
-    // Update 'VARIANT' to pick a Node version: 10, 12, 14
-    "args": { "VARIANT": "14" }
-  },
-
-  // Set *default* container specific settings.json values on container create.
-  "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash"
+    "args": { "VARIANT": "16" }
   },
 
   // Add the IDs of extensions you want installed when the container is created.
