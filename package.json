@@ -1,7 +1,9 @@
 {
   "name": "react-section-dividers",
   "version": "0.5.0",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/react-section-dividers.umd.js",
   "module": "./dist/react-section-dividers.es.js",
   "exports": {
@@ -13,9 +15,11 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:storybook": "build-storybook",
+    "lint": "",
     "serve": "vite preview",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "test": ""
   },
   "dependencies": {
     "react": "^17.0.0",
