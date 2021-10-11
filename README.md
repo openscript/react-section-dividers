@@ -13,7 +13,7 @@ Add the package with the package manager of choice to your project:
 ## Resources
 
 - Articles
-  - [\*\*Use Vite in Library Mode](https://vitejs.dev/guide/build.html#library-mode)
+  - [**Use Vite in Library Mode**](https://vitejs.dev/guide/build.html#library-mode)
 - Tools
   - [**Vite**](https://vitejs.dev/): Next Generation Frontend Tooling
   - [**Storybook**](https://storybook.js.org/): Storybook is an open source tool for building UI components and pages in isolation. It streamlines UI development, testing, and documentation.
